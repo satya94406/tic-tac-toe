@@ -77,6 +77,14 @@ main{
 .newgame_btn{
     background-color: red;
 }
+
+@media (max-width: 600px) {
+    .winner_msg {
+        font-size: 1.5rem; 
+    }
+}
+
 .hide{
     display: none;
 }
+
